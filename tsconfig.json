@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // These options are duplicated from tsconfig.app.json just so the shadcn CLI
+    // can detect the alias when it scans the root configuration file.
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
